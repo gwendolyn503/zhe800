@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>折800注册</title>
+    <meta name="keywords" content="折800注册"/>
+    <meta name="description" content="折800注册"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+
+</head>
+<body>
+	<div class="top register-wrap clear">
+		<a href="index.html" class="fl logo">
+			<img src="img/login_logo.jpg">
+		</a>
+		<p class="fr">
+			已经有团800或折800账号了？
+			<a href="login.html">去登入</a>
+		</p>
+	</div>
+<div class="main">
+	<div class="register-wrap clear main-contain">
+		<div class="main-l fl">
+			<form action="php/register.php" method="post" class="main-l-form">
+				<p class="p1">
+					<label for="">手机号：</label>
+					<input type="text" name="tel" placeholder="手机号码" onfocus="if(placeholder=='手机号码') {placeholder=''}" onblur="if (value=='') {placeholder='手机号码'}" class="nor" id="tel" />
+					<b><em></em><span></span></b>
+
+				</p>
+				<p class="p2"><label for="">密　　码：</label><input type="password" name="password" class="nor" id="pass" /><b><em></em><span></span></b></p>
+				<p><label for="">确认密码：</label><input type="password" name="repass" class="nor" id="repass" /><b><em></em><span></span></b></p>
+				<p class="xieyi"><input type="checkbox" name="xieyi" checked="checked"><b>我已同意并接受折800的<a href="">《用户服务协议》</a></b></p>
+				<p class="sub"><input type="submit" value="同意协议并注册" name="submit" /></p>
+			</form>
+		</div>
+		<div class="main-r fr">
+			<div class="main-r-wrap">
+				<div class="main-r-t">
+					<div class="main-r-qq">
+						<h2>还可以使用这些账号登入</h2>
+						<p class="line">
+							<a class="qq"><i>QQ登入</i></a>
+							<a class="baidu"><i>百度登入</i></a>
+							<b class="more">
+								<span>更多</span>
+								<span class="sanjiao"></span>
+							</b>
+						</p>
+						<p class="morelg">
+							<a href="" class="renren"><i>人人账号</i></a>
+							<a class="taobao"><i>淘宝账号</i></a>
+						</p>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+	<div class="footer">
+		<p class="footer-p1">
+			<a href="http://www.miibeian.gov.cn/">京ICP证120075号 </a>
+			<span>京ICP备10051110号-5</span>
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502025623">京公网安备11010502025623 </a>
+			<span> 统一社会信用代码 91110105571298269B  食品流通许可证SP1101051510352397 </span>
+		</p>
+		<p class="p2">
+			出版物经营许可证 &nbsp;&nbsp;&nbsp;新出发京零字第朝160018号&nbsp;&nbsp;  Copyright©2011-2015 版权所有 ZHE800.COM
+
+		</p>
+		<p class="p3 clear">
+			<a class="f1" href="https://www.zhe800.com/cn/list/commitment" target="_blank"></a>
+			<a class="f2" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=3571298269" target="_blank"></a>
+			<a class="f3" href="https://ss.knet.cn/verifyseal.dll?sn=e150522110105588321uva000000&ct=df&a=1&pa=0.07444781064987183" target="_blank"></a>
+		</p>
+	</div>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" ></script>
+	<script src="js/register.js"></script>
+</body>
+</html>
